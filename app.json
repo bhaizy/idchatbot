@@ -1,0 +1,71 @@
+{
+  "name": "ID Chatbot",
+  "description": "An Advanced Telegram AI Chatbot with Broadcast System",
+  "keywords": [
+    "telegram",
+    "bot",
+    "pyrogram",
+    "ai",
+    "gemini",
+    "chatbot",
+    "broadcast"
+  ],
+  "repository": "https://github.com/yourusername/idchatbot",
+  "website": "https://github.com/yourusername/idchatbot",
+  "success_url": "/",
+  "logo": "https://te.legra.ph/file/2e2f78610814092d61103.jpg",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Your Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "Your MongoDB Atlas connection URI string (e.g. mongodb+srv://...)",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram User ID (numeric, e.g. 123456789)",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "description": "Your Google Gemini API Key from Google AI Studio",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Display name of your chatbot",
+      "value": "ID Chatbot",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Telegram username of your bot (without @)",
+      "required": false
+    },
+    "SUPPORT_GROUP": {
+      "description": "Telegram support group invite link",
+      "required": false
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Telegram support channel invite link",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
