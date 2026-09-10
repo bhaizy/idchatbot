@@ -218,5 +218,5 @@ idchatbot/
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername"><b>ID Chatbot Team</b></a>
+  Made with ❤️ by <a href="https://github.com/bhaizy"><b>ID Chatbot Team</b></a>
 </p>
