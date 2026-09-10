@@ -10,8 +10,8 @@
     "chatbot",
     "broadcast"
   ],
-  "repository": "https://github.com/yourusername/idchatbot",
-  "website": "https://github.com/yourusername/idchatbot",
+  "repository": "https://github.com/bhaizy/idchatbot",
+  "website": "https://github.com/bhaizy/idchatbot",
   "success_url": "/",
   "logo": "https://te.legra.ph/file/2e2f78610814092d61103.jpg",
   "env": {
@@ -60,7 +60,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "eco"
+      "size": "basic"
     }
   },
   "buildpacks": [
