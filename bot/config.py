@@ -20,8 +20,8 @@ OWNER_ID = int(getenv("OWNER_ID", 0) or 0)
 GEMINI_API_KEY = getenv("GEMINI_API_KEY", None)
 
 # Community & Support Links
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/idchatbot_support")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/idchatbot_channel")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/stdxd")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/stdxd")
 
 # Bot Identity
 BOT_NAME = getenv("BOT_NAME", "ID Chatbot")
